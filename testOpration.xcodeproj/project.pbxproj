@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050357C51CFD35E9003BF3B6 /* SSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 050357C41CFD35E9003BF3B6 /* SSS.m */; };
 		B706E50818235692003A81EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B706E50718235692003A81EA /* UIKit.framework */; };
 		B706E50A18235692003A81EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B706E50918235692003A81EA /* Foundation.framework */; };
 		B706E50C18235692003A81EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B706E50B18235692003A81EA /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050357C31CFD35E9003BF3B6 /* SSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSS.h; sourceTree = "<group>"; };
+		050357C41CFD35E9003BF3B6 /* SSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSS.m; sourceTree = "<group>"; };
 		B706E50418235692003A81EA /* testOpration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testOpration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B706E50718235692003A81EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B706E50918235692003A81EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +97,8 @@
 				B706E50E18235692003A81EA /* Supporting Files */,
 				B706E52A182356E8003A81EA /* MyOperation.h */,
 				B706E52B182356E8003A81EA /* MyOperation.m */,
+				050357C31CFD35E9003BF3B6 /* SSS.h */,
+				050357C41CFD35E9003BF3B6 /* SSS.m */,
 			);
 			path = testOpration;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050357C51CFD35E9003BF3B6 /* SSS.m in Sources */,
 				B706E51418235692003A81EA /* main.m in Sources */,
 				B706E51818235692003A81EA /* AppDelegate.m in Sources */,
 				B706E52118235692003A81EA /* ViewController.m in Sources */,
@@ -302,6 +308,7 @@
 				B706E52918235692003A81EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
